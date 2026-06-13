@@ -1,37 +1,44 @@
-# SMS Spam Detection System
+# 📱 SMS Spam Detection System
 
-## Overview
+A Machine Learning-based SMS Spam Detection application that classifies SMS messages as **Spam** or **Ham (Legitimate Messages)** using Natural Language Processing (NLP) and Machine Learning.
 
-This project is a Machine Learning-based SMS Spam Detection System that classifies SMS messages as either Spam or Ham (Legitimate Messages).
+---
 
-The model is trained using the SMS Spam Collection Dataset and uses Natural Language Processing (NLP) techniques for text classification.
+## 🚀 Project Demo
 
-## Features
+### Home Screen
 
-* Detects Spam and Ham messages
-* Text preprocessing and cleaning
-* CountVectorizer for text vectorization
-* Multinomial Naive Bayes classifier
-* Interactive Tkinter GUI
-* Saved model for fast predictions
-* Accuracy: 97.85%
+![Home Screen](screenshots/home.png)
 
-## Technologies Used
+### Spam Detection Example
 
-* Python
-* Pandas
-* Scikit-Learn
-* Tkinter
-* Pickle
+![Spam Detection](screenshots/spam_prediction.png)
 
-## Dataset
+### Ham Detection Example
 
-* SMS Spam Collection Dataset
-* Total Messages: 5572
-* Ham Messages: 4825
-* Spam Messages: 747
+![Ham Detection](screenshots/ham_prediction.png)
 
-## Machine Learning Workflow
+---
+
+## 📌 Features
+
+✅ SMS Spam Detection
+
+✅ Text Preprocessing
+
+✅ CountVectorizer for NLP Feature Extraction
+
+✅ Multinomial Naive Bayes Classifier
+
+✅ Interactive Tkinter GUI
+
+✅ Saved Model for Fast Predictions
+
+✅ Real-Time Classification
+
+---
+
+## 🧠 Machine Learning Workflow
 
 1. Data Collection
 2. Data Cleaning
@@ -41,16 +48,53 @@ The model is trained using the SMS Spam Collection Dataset and uses Natural Lang
 6. Model Evaluation
 7. GUI Deployment
 
-## Results
+---
 
-* Algorithm: Multinomial Naive Bayes
-* Accuracy: 97.85%
+## 📊 Dataset Information
 
-## Project Structure
+| Metric         | Value |
+| -------------- | ----- |
+| Total Messages | 5572  |
+| Ham Messages   | 4825  |
+| Spam Messages  | 747   |
+
+---
+
+## 📈 Model Performance
+
+| Metric    | Value                   |
+| --------- | ----------------------- |
+| Algorithm | Multinomial Naive Bayes |
+| Accuracy  | 97.85%                  |
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* Tkinter
+* Pickle
+
+---
+
+## 📂 Project Structure
 
 SMS-SPAM-DETECTION/
 
 ├── dataset/
+
+│ └── spam.csv
+
+├── screenshots/
+
+│ ├── home.png
+
+│ ├── spam_prediction.png
+
+│ └── ham_prediction.png
 
 ├── smart_gui.py
 
@@ -60,8 +104,21 @@ SMS-SPAM-DETECTION/
 
 ├── vectorizer.pkl
 
+├── requirements.txt
+
 └── README.md
 
-## Author
+---
 
-Geetapraveen J
+## 🎯 Future Improvements
+
+* Web Application Deployment
+* Deep Learning Models
+* Multi-language Spam Detection
+* Email Spam Detection
+
+---
+
+## 👨‍💻 Author
+
+**JINAGA GEETAPRAVEEN**
